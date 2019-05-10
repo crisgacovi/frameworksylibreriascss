@@ -1,0 +1,46 @@
+.logo-img img {
+	height: 200px;
+}
+
+.social-img {
+	border-radius: 10px;
+}
+
+.nav-item a{
+	margin: 3px;
+}
+
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.busqueda {
+		display: none;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) {
+	.logo-img {
+		text-align: left;
+	}	
+	.redes-sociales {
+		text-align: right;
+	}
+}
+
+
